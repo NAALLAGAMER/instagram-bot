@@ -36,3 +36,17 @@ typing-extensions==4.8.0
 
 # Rate Limiting & Anti-Ban
 fake-useragent==1.4.0
+
+# Instagram API
+instagrapi==2.0.0
+
+# Telegram Bot
+python-telegram-bot==20.7
+
+# Web Server
+flask==3.0.0
+gunicorn==21.2.0
+
+# Utilities
+loguru==0.7.2
+requests==2.31.0
