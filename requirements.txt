@@ -1,29 +1,16 @@
-# Core Dependencies
-instagrapi==2.0.0
+# Fixed versions that work together
+pandas==2.0.3
+numpy==1.24.3
 python-telegram-bot==20.7
+instagrapi==2.0.0
 python-dotenv==1.0.0
 sqlalchemy==2.0.23
-
-# Utilities
 loguru==0.7.2
 schedule==1.2.0
-APScheduler==3.10.4
-redis==5.0.1
-
-# Web Server (for 24/7 hosting)
 flask==3.0.0
 gunicorn==21.2.0
-
-# Database
-alembic==1.12.1
-psycopg2-binary==2.9.9
-
-# Security & Rate Limiting
+APScheduler==3.10.4
 cryptography==41.0.7
-requests==2.31.0
-fake-useragent==1.4.0
-
-# Optional but recommended
-pandas==2.1.4
-emoji==2.8.0
-colorama==0.4.6
+python-dateutil==2.8.2
+pytz==2023.3
+six==1.16.0
