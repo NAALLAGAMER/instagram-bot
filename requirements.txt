@@ -1,16 +1,38 @@
-# Fixed versions that work together
-pandas==2.0.3
-numpy==1.24.3
-python-telegram-bot==20.7
+# Instagram API - Core
 instagrapi==2.0.0
+
+# Telegram Bot API
+python-telegram-bot==20.7
+
+# Environment Variables
 python-dotenv==1.0.0
+
+# Database
 sqlalchemy==2.0.23
+
+# Logging
 loguru==0.7.2
+
+# Scheduling
 schedule==1.2.0
+APScheduler==3.10.4
+
+# Web Server (for 24/7 hosting)
 flask==3.0.0
 gunicorn==21.2.0
-APScheduler==3.10.4
+waitress==2.1.2
+
+# HTTP Requests
+requests==2.31.0
+aiohttp==3.9.1
+
+# Security
 cryptography==41.0.7
-python-dateutil==2.8.2
-pytz==2023.3
-six==1.16.0
+
+# Utilities
+emoji==2.8.0
+colorama==0.4.6
+typing-extensions==4.8.0
+
+# Rate Limiting & Anti-Ban
+fake-useragent==1.4.0
